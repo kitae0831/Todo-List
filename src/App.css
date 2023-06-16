@@ -1,0 +1,90 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  box-sizing: border-box;
+  border: 1px gray solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+
+  width: 1200px;
+  height: 50px;
+}
+
+.add-form {
+  box-sizing: border-box;
+  border: 1px solid none;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeee;
+}
+
+.input-group {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.from-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.add-input {
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+}
+
+.add-button {
+  background-color: teal;
+  border-radius: 10px;
+  color: white;
+  width: 140px;
+  height: 40px;
+}
+
+.list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.todo-container {
+  border: 4px solid teal;
+  border-radius: 12px;
+  width: 270px;
+  padding: 12px 24px 24px;
+}
+
+.button-set {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+button {
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  width: 50%;
+}
+
+.red-button {
+  background-color: #fff;
+  border: 2px solid red;
+}
+
+.green-button {
+  background-color: #fff;
+  border: 2px solid green;
+}
